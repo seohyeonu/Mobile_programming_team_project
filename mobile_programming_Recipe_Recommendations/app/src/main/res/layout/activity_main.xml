@@ -1,20 +1,36 @@
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="412dp"
-    android:layout_height="917dp"
-    android:background="#184a86">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_screan">
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:columnWidth="90dp"
+        android:stretchMode="none"
+        android:gravity="center"
+        android:paddingTop="50dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="20dp"/>
 
     <TextView
-        android:layout_width="132dp"
-        android:layout_height="30dp"
-        android:fontFamily="@font/lilita_one"
-        android:textStyle="normal"
-        android:textSize="24sp"
-        android:textColor="#000000"
-        android:gravity="center_horizontal"
-        android:text="칼국수"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="다시 추천"
+        android:textSize="15dp"/>
 
-
-
-
-</RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="카테고리 다시 선택하기"
+        android:padding="5dp"
+        android:textSize="15dp"/>
+</LinearLayout>
