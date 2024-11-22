@@ -11,26 +11,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:numColumns="3"
-        android:horizontalSpacing="5dp"
-        android:verticalSpacing="5dp"
-        android:columnWidth="90dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:columnWidth="80dp"
+        android:paddingLeft="70dp"
+        android:paddingTop="65dp"
         android:stretchMode="none"
-        android:gravity="center"
-        android:paddingTop="50dp"
-        android:paddingLeft="60dp"
-        android:paddingRight="20dp"/>
+        android:gravity="center" />
+
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="5dp"
+        android:padding="10dp"
         android:text="다시 추천"
-        android:textSize="15dp"/>
+        android:textSize="17dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="카테고리 다시 선택하기"
-        android:padding="5dp"
-        android:textSize="15dp"/>
+        android:padding="7dp"
+        android:textSize="17dp"/>
 </LinearLayout>
