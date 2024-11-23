@@ -64,12 +64,27 @@ public class MainActivity extends AppCompatActivity {
             // GridView의 각 아이템 크기 설정
             gridItemView.setLayoutParams(new GridView.LayoutParams(200, 200)); // Image 크기와 동일
 
-            // 클릭 시 카드 뒤집기
-            gridItemView.setOnClickListener(v -> flipCard(frontImage, backText));
+            // 초기 상태 설정
+            frontImage.setVisibility(View.VISIBLE);
+            backText.setVisibility(View.INVISIBLE);
 
             return gridItemView;
         }
 
+        // 모든 카드를 뒤집는 메서드
+        public void flipAllCards(GridView gridView) {
+            for (int i = 0; i < gridView.getChildCount(); i++) {
+                View itemView = gridView.getChildAt(i);
+
+                if (itemView != null) {
+                    ImageView frontImage = itemView.findViewById(R.id.front_image);
+                    TextView backText = itemView.findViewById(R.id.back_text);
+
+                    // 각 카드에 대한 뒤집기 애니메이션 실행
+                    flipCard(frontImage, backText);
+                }
+            }
+        }
 
         // 카드 뒤집기 애니메이션
         private void flipCard(ImageView frontImage, TextView backText) {
@@ -98,7 +113,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -107,5 +121,8 @@ public class MainActivity extends AppCompatActivity {
         GridView gv = findViewById(R.id.grid);
         MyGridAdapter gAdapter = new MyGridAdapter(this);
         gv.setAdapter(gAdapter);
+
+        // 클릭 시 모든 카드 뒤집기
+        gv.setOnItemClickListener((parent, view, position, id) -> gAdapter.flipAllCards(gv));
     }
 }

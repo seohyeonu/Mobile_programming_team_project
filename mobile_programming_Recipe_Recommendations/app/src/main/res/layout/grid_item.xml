@@ -4,20 +4,20 @@
     android:layout_gravity="center">
 
     <!-- 앞면 이미지 -->
-<ImageView
-android:id="@+id/front_image"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:scaleType="centerCrop" />
+    <ImageView
+    android:id="@+id/front_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop" />
 
-    <!-- 뒷면 텍스트 -->
-<TextView
-android:id="@+id/back_text"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:gravity="center"
-android:background="@android:color/holo_blue_light"
-android:textColor="@android:color/white"
-android:textSize="18sp"
-android:visibility="invisible" />
-    </FrameLayout>
+        <!-- 뒷면 텍스트 -->
+    <TextView
+    android:id="@+id/back_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/holo_blue_light"
+    android:textColor="@android:color/white"
+    android:textSize="18sp"
+    android:visibility="invisible" />
+</FrameLayout>
