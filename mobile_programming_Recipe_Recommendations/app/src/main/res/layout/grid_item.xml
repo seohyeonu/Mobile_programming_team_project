@@ -5,19 +5,19 @@
 
     <!-- 앞면 이미지 -->
     <ImageView
-    android:id="@+id/front_image"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:scaleType="centerCrop" />
+        android:id="@+id/front_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
 
-        <!-- 뒷면 텍스트 -->
+    <!-- 뒷면 텍스트 -->
     <TextView
-    android:id="@+id/back_text"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:background="@android:color/holo_blue_light"
-    android:textColor="@android:color/white"
-    android:textSize="18sp"
-    android:visibility="invisible" />
+        android:id="@+id/back_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/border_background"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:visibility="invisible" />
 </FrameLayout>

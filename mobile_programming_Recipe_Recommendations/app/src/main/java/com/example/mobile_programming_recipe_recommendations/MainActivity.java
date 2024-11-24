@@ -152,7 +152,7 @@ public class MainActivity extends AppCompatActivity {
                 gAdapter.flipAllCards(gv);
 
                 // 카드 상태를 갱신한 뒤 데이터 변경
-                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 100); // 애니메이션 후 데이터 갱신
+                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 150); // 애니메이션 후 데이터 갱신
 
                 Toast.makeText(MainActivity.this, "사이드 메뉴를 선택했습니다!", Toast.LENGTH_SHORT).show();
             } else if(position == 1){
@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity {
                 gAdapter.flipAllCards(gv);
 
                 // 카드 상태를 갱신한 뒤 데이터 변경
-                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 100); // 애니메이션 후 데이터 갱신
+                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 150); // 애니메이션 후 데이터 갱신
 
                 Toast.makeText(MainActivity.this, "사이드 메뉴를 선택했습니다!", Toast.LENGTH_SHORT).show();
             }
@@ -179,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
                 gAdapter.flipAllCards(gv);
 
                 // 카드 상태를 갱신한 뒤 데이터 변경
-                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 100); // 애니메이션 후 데이터 갱신
+                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 150); // 애니메이션 후 데이터 갱신
 
                 Toast.makeText(MainActivity.this, "사이드 메뉴를 선택했습니다!", Toast.LENGTH_SHORT).show();
             }
@@ -193,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
                 gAdapter.flipAllCards(gv);
 
                 // 카드 상태를 갱신한 뒤 데이터 변경
-                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 100); // 애니메이션 후 데이터 갱신
+                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 150); // 애니메이션 후 데이터 갱신
 
                 Toast.makeText(MainActivity.this, "사이드 메뉴를 선택했습니다!", Toast.LENGTH_SHORT).show();
             }
@@ -207,7 +207,7 @@ public class MainActivity extends AppCompatActivity {
                 gAdapter.flipAllCards(gv);
 
                 // 카드 상태를 갱신한 뒤 데이터 변경
-                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 100); // 애니메이션 후 데이터 갱신
+                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 150); // 애니메이션 후 데이터 갱신
 
                 Toast.makeText(MainActivity.this, "사이드 메뉴를 선택했습니다!", Toast.LENGTH_SHORT).show();
             }
@@ -222,7 +222,7 @@ public class MainActivity extends AppCompatActivity {
                 gAdapter.flipAllCards(gv);
 
                 // 카드 상태를 갱신한 뒤 데이터 변경
-                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 100); // 애니메이션 후 데이터 갱신
+                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 150); // 애니메이션 후 데이터 갱신
 
                 Toast.makeText(MainActivity.this, "사이드 메뉴를 선택했습니다!", Toast.LENGTH_SHORT).show();
             }
@@ -236,7 +236,7 @@ public class MainActivity extends AppCompatActivity {
                 gAdapter.flipAllCards(gv);
 
                 // 카드 상태를 갱신한 뒤 데이터 변경
-                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 100); // 애니메이션 후 데이터 갱신
+                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 150); // 애니메이션 후 데이터 갱신
 
                 Toast.makeText(MainActivity.this, "사이드 메뉴를 선택했습니다!", Toast.LENGTH_SHORT).show();
             }
@@ -264,7 +264,7 @@ public class MainActivity extends AppCompatActivity {
                 gAdapter.flipAllCards(gv);
 
                 // 카드 상태를 갱신한 뒤 데이터 변경
-                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 100); // 애니메이션 후 데이터 갱신
+                gv.postDelayed(() -> gAdapter.notifyDataSetChanged(), 150); // 애니메이션 후 데이터 갱신
 
                 Toast.makeText(MainActivity.this, "사이드 메뉴를 선택했습니다!", Toast.LENGTH_SHORT).show();
             }
