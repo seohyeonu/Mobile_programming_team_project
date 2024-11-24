@@ -22,6 +22,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 
+import java.util.ArrayList;
+
 public class AddIngredients extends AppCompatActivity {
     Integer[] imageID = {R.drawable.apple, R.drawable.brown_seaweed, R.drawable.cabbage, R.drawable.mayonnaise,
             R.drawable.milk, R.drawable.oyster_mushroom, R.drawable.pea, R.drawable.spinach,
@@ -59,6 +61,8 @@ public class AddIngredients extends AppCompatActivity {
 class AddIngredentList extends BaseAdapter {
     private Context context;
     private Integer[] imageID;
+    ArrayList<Integer> add_ingredient_array = new ArrayList<Integer>();
+    ArrayList<String> selectedDate_array = new ArrayList<String>();
 
     public AddIngredentList(Context c, Integer[] id){
         context = c;
@@ -90,12 +94,12 @@ class AddIngredentList extends BaseAdapter {
         imageView.setImageResource(imageID[i]);
 
         ImageButton addButton = view.findViewById(R.id.add_button);
-        addButton.setOnClickListener(view1 -> dialog(i));
+        addButton.setOnClickListener(view1 -> dialog(imageID[i]));
 
         return view;
     }
 
-    private void dialog(int i){
+    private void dialog(Integer imageId){
         BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(context);
         bottomSheetDialog.setContentView(R.layout.dialog);
 
@@ -109,12 +113,15 @@ class AddIngredentList extends BaseAdapter {
                 String selectedDate = year + "." + month + "." + day;
 
                 Intent result_my_refrigerator = new Intent();
-                result_my_refrigerator.putExtra("SelectedNumber", i);
-                result_my_refrigerator.putExtra("SelectedDate", selectedDate);
+                add_ingredient_array.add(imageId);
+                selectedDate_array.add(selectedDate);
+
+                result_my_refrigerator.putIntegerArrayListExtra("SelectedNumber", add_ingredient_array);
+                result_my_refrigerator.putExtra("SelectedDate", selectedDate_array);
                 //결과로 던지면 될 듯하다.
                 ((AddIngredients) context).setResult(Activity.RESULT_OK, result_my_refrigerator);
 
-                Toast.makeText(context, "추가됐어요!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "지금까지 " + add_ingredient_array.size() + "개가 추가됐어요!", Toast.LENGTH_SHORT).show();
                 bottomSheetDialog.dismiss();
             });
         }
