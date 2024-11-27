@@ -21,17 +21,17 @@
 
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:text="다시 추천"
-        android:textSize="17dp"/>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="10dp"-->
+<!--        android:text="다시 추천"-->
+<!--        android:textSize="17dp"/>-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="카테고리 다시 선택하기"
-        android:padding="7dp"
-        android:textSize="17dp"/>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="카테고리 다시 선택하기"-->
+<!--        android:padding="7dp"-->
+<!--        android:textSize="17dp"/>-->
 </LinearLayout>
