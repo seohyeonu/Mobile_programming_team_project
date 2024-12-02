@@ -32,9 +32,24 @@ public class MainActivity extends AppCompatActivity {
         loginButton = findViewById(R.id.login);
 
         findUserID = findViewById(R.id.find_user_ID);
-        findUserPass = findViewById(R.id.find_user_Pass);
-        getNewUser = findViewById(R.id.get_new_user);
+        findUserID.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent goToFindUserIDActivity = new Intent(MainActivity.this, FindUserIDActivity.class);
+                startActivity(goToFindUserIDActivity);
+            }
+        });
 
+        findUserPass = findViewById(R.id.find_user_Pass);
+        findUserPass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent goToFindUserPasswordActivity = new Intent(MainActivity.this, FindUserPasswordActivity.class);
+                startActivity(goToFindUserPasswordActivity);
+            }
+        });
+
+        getNewUser = findViewById(R.id.get_new_user);
         getNewUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

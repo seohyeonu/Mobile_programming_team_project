@@ -23,6 +23,9 @@
         </activity>
 
         <activity android:name=".JoinTheMembershipActivity"/>
+        <activity android:name=".FindUserIDActivity"/>
+        <activity android:name=".FindUserPasswordActivity"/>
+
     </application>
 
 </manifest>
