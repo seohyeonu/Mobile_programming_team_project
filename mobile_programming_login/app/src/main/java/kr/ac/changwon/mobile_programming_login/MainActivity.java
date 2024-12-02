@@ -18,7 +18,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     EditText inputID, inputPassword;
     Button loginButton;
-    TextView getNewUser, findUserInfo;
+    TextView getNewUser, findUserID, findUserPass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
 
         loginButton = findViewById(R.id.login);
 
-        findUserInfo = findViewById(R.id.find_user_info);
+        findUserID = findViewById(R.id.find_user_ID);
+        findUserPass = findViewById(R.id.find_user_Pass);
         getNewUser = findViewById(R.id.get_new_user);
 
         getNewUser.setOnClickListener(new View.OnClickListener() {
