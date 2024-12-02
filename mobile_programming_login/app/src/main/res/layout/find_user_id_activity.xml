@@ -43,7 +43,7 @@
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/id_icon"
             android:background="@android:color/transparent"
-            android:hint="이름을 입력해주세요."
+            android:hint="이름 입력 (예: 홍길동)"
             android:inputType="text"
             android:maxLength="16"
             android:maxLines="1"
@@ -68,12 +68,12 @@
             android:layout_alignBottom="@id/smartphone_icon"
             android:layout_toRightOf="@id/smartphone_icon"
             android:background="@android:color/transparent"
-            android:hint="휴대폰 번호를 입력해주세요."
+            android:hint="전화번호 입력 (예: 01012345678)"
             android:inputType="phone"
             android:maxLength="11"
             android:maxLines="1"
             android:textColorHint="#d0d0d0"
-            android:textSize="15sp" />
+            android:textSize="14sp" />
 
         <ImageButton
             android:id="@+id/forwardingButton"
@@ -81,7 +81,7 @@
             android:layout_height="30dp"
             android:layout_alignTop="@id/input_phoneNum"
             android:layout_alignRight="@id/login"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="5dp"
             android:layout_toRightOf="@id/input_phoneNum"
             android:background="#00000000"
             android:scaleType="centerInside"
