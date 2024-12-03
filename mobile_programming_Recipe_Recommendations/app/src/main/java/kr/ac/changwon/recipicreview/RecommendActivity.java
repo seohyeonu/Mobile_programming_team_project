@@ -38,7 +38,7 @@ public class RecommendActivity extends AppCompatActivity {
                 {"신라면", "우유", "크림", "치즈", "베이컨", "양파", "마늘", "파슬리"}
         };
 
-        String[] userIngredients = {"신라면", "마늘", "우유", "양파", "밥", "대파", "달걀", "김치", "참기름"};
+        String[] userIngredients = {"신라면", "마늘", "우유", "양파", "밥", "대파", "달걀", "김치", "참기름", "돼지고기", "당근"};
 
         Integer[] imgID = {
                 R.drawable.button_noodle, R.drawable.button_pork, R.drawable.button_beafsoup, R.drawable.button_redbean,
