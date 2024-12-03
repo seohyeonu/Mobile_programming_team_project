@@ -35,20 +35,20 @@ public class JoinTheMembershipActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.join_the_membership_activity);
         //
-        //선언된 위젯들
-        backButton = findViewById(R.id.backButton);
-        duplicate_checkButton = findViewById(R.id.duplicate_check);
-        forwardingButton = findViewById(R.id.forwardingButton);
-        create_an_accountButton = findViewById(R.id.create_an_account);
-        inputID = findViewById(R.id.input_id);  // ++
-        inputPassword = findViewById(R.id.input_password);  // ++
-        inputPhoneNum = findViewById(R.id.input_phoneNum);  // +
-        // 인증번호 전송 후에 나타낼 인증 번호 체크칸을 위해 선언을 해주자.
+        //선언해줘야 할 위젯들
+        backButton = findViewById(R.id.backButton); // (완료)
+        duplicate_checkButton = findViewById(R.id.duplicate_check); // (완료)
+        forwardingButton = findViewById(R.id.forwardingButton); // (완료)
+        create_an_accountButton = findViewById(R.id.create_an_account); // (미완료)
+        inputID = findViewById(R.id.input_id);  // (완료)
+        inputPassword = findViewById(R.id.input_password);  // (완료)
+        inputPhoneNum = findViewById(R.id.input_phoneNum);  // (완료)
+        
+        // 인증번호 전송 후에 보여야 할 인증번호 기입 칸을 위해 위젯 선언 해주기
         appearedIcon = findViewById(R.id.checkbox_icon);
         appearedInputCheckNum = findViewById(R.id.input_checkNum);
         appearedCheckButton = findViewById(R.id.checkButton);
 
-        
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,7 +56,7 @@ public class JoinTheMembershipActivity extends AppCompatActivity {
             }
         });
 
-        //입력에 대한 제약을 걸어두자.
+        // 입력에 대한 무결성을 입증하기 위한 작업들 입니다.
         inputID.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -71,11 +71,28 @@ public class JoinTheMembershipActivity extends AppCompatActivity {
                 else {
                     duplicate_checkButton.setVisibility(View.GONE);
                 }
+                appearedInputCheckNum.setText("");
             }
 
             @Override
             public void afterTextChanged(Editable editable) {
                 is_duplicate_check = -1;
+            }
+        });
+        inputPassword.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                appearedInputCheckNum.setText("");
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+
             }
         });
         inputPhoneNum.addTextChangedListener(new TextWatcher() {
@@ -92,6 +109,7 @@ public class JoinTheMembershipActivity extends AppCompatActivity {
                 else {
                     forwardingButton.setVisibility(View.GONE);
                 }
+                appearedInputCheckNum.setText("");
             }
 
             @Override
@@ -105,7 +123,7 @@ public class JoinTheMembershipActivity extends AppCompatActivity {
             }
         });
 
-        // 버튼을 눌렀을 때 무결성이 깨졌는지 상시 체크할 수 있도록 해야겠구나..
+        // 버튼을 눌렀을 때 무결성이 깨졌는지 상시 체크할 수 있도록 해야겠구나.. (완료)
         duplicate_checkButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -115,6 +133,7 @@ public class JoinTheMembershipActivity extends AppCompatActivity {
                 }
             }
         });
+            // 메시지로 전송되는 인증번호는 Toast 메시지로 대체한 프로토타입으로 제작했습니다.
         forwardingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -143,6 +162,7 @@ public class JoinTheMembershipActivity extends AppCompatActivity {
                     }
                 }
                 is_final_checkStatus = -1;
+                appearedInputCheckNum.setText("");
             }
         });
         appearedCheckButton.setOnClickListener(new View.OnClickListener() {
@@ -173,6 +193,10 @@ public class JoinTheMembershipActivity extends AppCompatActivity {
                 }
             }
         });
+        /*
+        계정이 만들어지면서 생긴 유저 정보 List를 로그인의 메인화면으로 넘겨주는 작업을 해줘야 함. (미완)
+            + 로그인 메인화면에서 startActivityforResult()로 넘어와서 넘겨주면 되겠다.
+        */
         create_an_accountButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
