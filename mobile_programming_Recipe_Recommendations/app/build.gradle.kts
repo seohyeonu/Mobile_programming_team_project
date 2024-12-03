@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mobile_programming_recipe_recommendations"
+    namespace = "kr.ac.changwon.recipicreview"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.mobile_programming_recipe_recommendations"
-        minSdk = 24
+        applicationId = "kr.ac.changwon.recipicreview"
+        minSdk = 21
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"

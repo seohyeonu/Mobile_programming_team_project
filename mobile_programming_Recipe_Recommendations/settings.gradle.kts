@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "mobile_programming_ Recipe_Recommendations"
+rootProject.name = "recipicreview"
 include(":app")
- 
