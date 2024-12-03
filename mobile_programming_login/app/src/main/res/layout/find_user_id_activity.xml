@@ -73,19 +73,20 @@
             android:maxLength="11"
             android:maxLines="1"
             android:textColorHint="#d0d0d0"
-            android:textSize="14sp" />
+            android:textSize="14sp"/>
 
         <ImageButton
             android:id="@+id/forwardingButton"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_alignTop="@id/input_phoneNum"
-            android:layout_alignRight="@id/login"
+            android:layout_alignRight="@id/find_user_id"
             android:layout_marginLeft="5dp"
             android:layout_toRightOf="@id/input_phoneNum"
             android:background="#00000000"
             android:scaleType="centerInside"
-            android:src="@drawable/forwarding_icon"/>
+            android:src="@drawable/forwarding_icon"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/checkbox_icon"
@@ -119,7 +120,7 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_alignTop="@id/input_checkNum"
-            android:layout_alignRight="@id/login"
+            android:layout_alignRight="@id/find_user_id"
             android:layout_marginLeft="45dp"
             android:layout_toRightOf="@id/input_checkNum"
             android:background="#00000000"
@@ -128,7 +129,7 @@
             android:visibility="gone"/>
 
         <Button
-            android:id="@+id/login"
+            android:id="@+id/find_user_id"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/checkbox_icon"
