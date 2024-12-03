@@ -27,7 +27,7 @@ public class FindUserIDActivity extends AppCompatActivity {
     ImageView appearedIcon;
     ImageButton backButton, forwardingButton, appearedCheckButton;
     Button find_user_idButton;
-    EditText inputUesrName, inputPhoneNum, appearedInputCheckNum;
+    EditText inputUserName, inputPhoneNum, appearedInputCheckNum;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -38,7 +38,7 @@ public class FindUserIDActivity extends AppCompatActivity {
         // 기본적으로 써야할 위젯을 위한 선언해주기
         backButton = findViewById(R.id.backButton);
         forwardingButton = findViewById(R.id.forwardingButton);
-        inputUesrName = findViewById(R.id.input_id);
+        inputUserName = findViewById(R.id.input_id);
         inputPhoneNum = findViewById(R.id.input_phoneNum);
         find_user_idButton = findViewById(R.id.find_user_id);
 
@@ -49,7 +49,7 @@ public class FindUserIDActivity extends AppCompatActivity {
 
         // 입력 바뀔 때 무결성 검사를 해주는 작업들 입니다.
         // + 전화번호가 한자리 라도 입력이 됐을 떄 전송 버튼을 드러내기 위한 작업입니다.
-        inputUesrName.addTextChangedListener(new TextWatcher() {
+        inputUserName.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
@@ -119,7 +119,7 @@ public class FindUserIDActivity extends AppCompatActivity {
         forwardingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(inputUesrName.getText().toString().length() == 0){
+                if(inputUserName.getText().toString().length() == 0){
                     Toast.makeText(getApplicationContext(), "이름을 입력해주세요.", Toast.LENGTH_SHORT).show();
                 }
                 else if (is_ready_forwarding == -1) {
@@ -141,7 +141,7 @@ public class FindUserIDActivity extends AppCompatActivity {
         appearedCheckButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(inputUesrName.getText().toString().length() == 0){
+                if(inputUserName.getText().toString().length() == 0){
                     Toast.makeText(getApplicationContext(), "이름을 입력해주세요.", Toast.LENGTH_SHORT).show();
                 }
                 else if (is_ready_forwarding == -1) {
@@ -165,7 +165,7 @@ public class FindUserIDActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "<유저 아이디> 출력...", Toast.LENGTH_SHORT).show();
                     finish();
                 } // 이 아래는 입력이 잘못 됐거나 입력이 변경으로 인해 무결성이 깨졌을 때 경고문이 뜨게끔 만들었습니다.
-                else if(inputUesrName.getText().toString().length() == 0) {
+                else if(inputUserName.getText().toString().length() == 0) {
                     Toast.makeText(getApplicationContext(), "이름이 입력되지 않았습니다.", Toast.LENGTH_SHORT).show();
                 }
                 else if(inputPhoneNum.getText().toString().length() == 0) {
@@ -181,7 +181,6 @@ public class FindUserIDActivity extends AppCompatActivity {
                 }
             }
         });
-
         //
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.find_user_id_page), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
