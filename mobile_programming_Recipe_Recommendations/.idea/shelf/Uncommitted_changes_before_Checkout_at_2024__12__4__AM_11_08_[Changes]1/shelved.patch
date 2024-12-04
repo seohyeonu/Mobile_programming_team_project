@@ -1,0 +1,105 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AndroidLayouts\">\n    <shared>\n      <config>\n        <device id=\"pixel_5\" />\n        <device id=\"pixel_6\" />\n        <device id=\"pixel_7\" />\n        <device id=\"pixel_8\" />\n        <device id=\"_android_virtual_device_id_Pixel_2_API_34\" />\n        <device id=\"pixel_7a\" />\n      </config>\n    </shared>\n    <layouts>\n      <layout url=\"file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml\">\n        <config>\n          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>\n        </config>\n      </layout>\n      <layout url=\"file://$PROJECT_DIR$/app/src/main/res/layout/grid_item.xml\">\n        <config>\n          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>\n        </config>\n      </layout>\n    </layouts>\n  </component>\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"NONE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"53ea40c8-8110-44a4-988a-d9b4f6680936\" name=\"Changes\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ClangdSettings\">\n    <option name=\"formatViaClangd\" value=\"false\" />\n  </component>\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/hyeonu/.android/avd/Pixel_5_API_34.avd)]\" />\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <task path=\"$PROJECT_DIR$/app\">\n          <activation />\n        </task>\n        <projects_view>\n          <tree_state>\n            <expand>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"mobile_programming_ Recipe_Recommendations\" type=\"f1a62948:ProjectNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"mobile_programming_ Recipe_Recommendations\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"app\" type=\"2d1252cf:ModuleNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"mobile_programming_ Recipe_Recommendations\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"app\" type=\"2d1252cf:ModuleNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"mobile_programming_ Recipe_Recommendations\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"app\" type=\"2d1252cf:ModuleNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n                <item name=\"other\" type=\"c8890929:TasksNode$1\" />\n              </path>\n            </expand>\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n        <option value=\"layoutResourceFile\" />\n        <option value=\"resourceFile\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$/..\" value=\"LJS\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 8\n}</component>\n  <component name=\"ProjectId\" id=\"2o6C3lGad40niGh78qPb0XkwQnq\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Android App.app.executor\": \"Run\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\n    \"RunOnceActivity.readMode.enableVisualFormatting\": \"true\",\n    \"cf.first.check.clang-format\": \"false\",\n    \"cidr.known.project.marker\": \"true\",\n    \"git-widget-placeholder\": \"main\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"last_opened_file_path\": \"/Users/hyeonu/mobile_programming_team_project/mobile_programming_Recipe_Recommendations\"\n  }\n}]]></component>\n  <component name=\"RunManager\">\n    <configuration name=\"app\" type=\"AndroidRunConfigurationType\" factoryName=\"Android App\">\n      <module name=\"mobile_programming__Recipe_Recommendations.app.main\" />\n      <option name=\"DEPLOY\" value=\"true\" />\n      <option name=\"DEPLOY_APK_FROM_BUNDLE\" value=\"false\" />\n      <option name=\"DEPLOY_AS_INSTANT\" value=\"false\" />\n      <option name=\"ARTIFACT_NAME\" value=\"\" />\n      <option name=\"PM_INSTALL_OPTIONS\" value=\"\" />\n      <option name=\"ALL_USERS\" value=\"false\" />\n      <option name=\"ALWAYS_INSTALL_WITH_PM\" value=\"false\" />\n      <option name=\"CLEAR_APP_STORAGE\" value=\"false\" />\n      <option name=\"DYNAMIC_FEATURES_DISABLED_LIST\" value=\"\" />\n      <option name=\"ACTIVITY_EXTRA_FLAGS\" value=\"\" />\n      <option name=\"MODE\" value=\"default_activity\" />\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\n      <option name=\"TARGET_SELECTION_MODE\" value=\"DEVICE_AND_SNAPSHOT_COMBO_BOX\" />\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\n      <Auto>\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\n        <option name=\"WORKING_DIR\" value=\"\" />\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\n      </Auto>\n      <Hybrid>\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\n        <option name=\"WORKING_DIR\" value=\"\" />\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\n      </Hybrid>\n      <Java>\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\n      </Java>\n      <Native>\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\n        <option name=\"WORKING_DIR\" value=\"\" />\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\n        <option name=\"ATTACH_ON_WAIT_FOR_DEBUGGER\" value=\"false\" />\n        <option name=\"DEBUG_SANDBOX_SDK\" value=\"false\" />\n      </Native>\n      <Profilers>\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Java/Kotlin Method Sample (legacy)\" />\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\n      </Profilers>\n      <option name=\"DEEP_LINK\" value=\"\" />\n      <option name=\"ACTIVITY_CLASS\" value=\"\" />\n      <option name=\"SEARCH_ACTIVITY_IN_GLOBAL_SCOPE\" value=\"false\" />\n      <option name=\"SKIP_ACTIVITY_VALIDATION\" value=\"false\" />\n      <method v=\"2\">\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"53ea40c8-8110-44a4-988a-d9b4f6680936\" name=\"Changes\" comment=\"\" />\n      <created>1730180441760</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1730180441760</updated>\n    </task>\n    <servers />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 234d9aa93c764ef98538340aa0b732f2a3f1a6df)
++++ b/.idea/workspace.xml	(date 1733278113513)
+@@ -12,14 +12,59 @@
+       </config>
+     </shared>
+     <layouts>
++      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_banner.xml">
++        <config>
++          <theme>@style/Theme.Recipicreview</theme>
++        </config>
++      </layout>
++      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_food.xml">
++        <config>
++          <theme>@style/Theme.Recipicreview</theme>
++        </config>
++      </layout>
++      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_listview.xml">
++        <config>
++          <theme>@style/Theme.Recipicreview</theme>
++        </config>
++      </layout>
+       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+         <config>
+-          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
++          <theme>@style/Theme.Recipicreview</theme>
++        </config>
++      </layout>
++      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_recommend.xml">
++        <config>
++          <theme>@style/Theme.Recipicreview</theme>
++        </config>
++      </layout>
++      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/add_ingredients_activity.xml">
++        <config>
++          <theme>@style/Theme.Recipicreview</theme>
++        </config>
++      </layout>
++      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/add_ingredients_individual_list.xml">
++        <config>
++          <theme>@style/Theme.Recipicreview</theme>
++        </config>
++      </layout>
++      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog.xml">
++        <config>
++          <theme>@style/Theme.Recipicreview</theme>
+         </config>
+       </layout>
+       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/grid_item.xml">
+         <config>
+-          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
++          <theme>@style/Theme.Recipicreview</theme>
++        </config>
++      </layout>
++      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/my_refrigerator.xml">
++        <config>
++          <theme>@style/Theme.Recipicreview</theme>
++        </config>
++      </layout>
++      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/my_refrigerator_individual_list.xml">
++        <config>
++          <theme>@style/Theme.Recipicreview</theme>
+         </config>
+       </layout>
+     </layouts>
+@@ -117,7 +162,6 @@
+     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+     "cf.first.check.clang-format": "false",
+     "cidr.known.project.marker": "true",
+-    "git-widget-placeholder": "main",
+     "kotlin-language-version-configured": "true",
+     "last_opened_file_path": "/Users/hyeonu/mobile_programming_team_project/mobile_programming_Recipe_Recommendations"
+   }
+Index: local.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>## This file is automatically generated by Android Studio.\n# Do not modify this file -- YOUR CHANGES WILL BE ERASED!\n#\n# This file should *NOT* be checked into Version Control Systems,\n# as it contains information specific to your local configuration.\n#\n# Location of the SDK. This is only used by Gradle.\n# For customization when using a Version Control System, please read the\n# header note.\nsdk.dir=/Users/songwon/Library/Android/sdk
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/local.properties b/local.properties
+--- a/local.properties	(revision 234d9aa93c764ef98538340aa0b732f2a3f1a6df)
++++ b/local.properties	(date 1733278113517)
+@@ -1,10 +1,8 @@
+-## This file is automatically generated by Android Studio.
+-# Do not modify this file -- YOUR CHANGES WILL BE ERASED!
+-#
+-# This file should *NOT* be checked into Version Control Systems,
++## This file must *NOT* be checked into Version Control Systems,
+ # as it contains information specific to your local configuration.
+ #
+ # Location of the SDK. This is only used by Gradle.
+ # For customization when using a Version Control System, please read the
+ # header note.
+-sdk.dir=/Users/songwon/Library/Android/sdk
+\ No newline at end of file
++#Wed Dec 04 11:08:07 KST 2024
++sdk.dir=/Users/hyeonu/Library/Android/sdk
