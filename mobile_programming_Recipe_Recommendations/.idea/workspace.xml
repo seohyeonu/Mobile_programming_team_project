@@ -2,69 +2,92 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config>
-        <device id="pixel_5" />
-        <device id="pixel_6" />
-        <device id="pixel_7" />
-        <device id="pixel_8" />
-        <device id="_android_virtual_device_id_Pixel_2_API_34" />
-        <device id="pixel_7a" />
-      </config>
+      <config />
     </shared>
     <layouts>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_banner.xml">
         <config>
-          <theme>@style/Theme.Recipicreview</theme>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_food.xml">
         <config>
-          <theme>@style/Theme.Recipicreview</theme>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_listview.xml">
         <config>
-          <theme>@style/Theme.Recipicreview</theme>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
         <config>
-          <theme>@style/Theme.Recipicreview</theme>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_recommend.xml">
         <config>
-          <theme>@style/Theme.Recipicreview</theme>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/add_ingredients_activity.xml">
         <config>
-          <theme>@style/Theme.Recipicreview</theme>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/add_ingredients_individual_list.xml">
         <config>
-          <theme>@style/Theme.Recipicreview</theme>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog.xml">
         <config>
-          <theme>@style/Theme.Recipicreview</theme>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/find_user_id_activity.xml">
+        <config>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/find_user_password_activity.xml">
+        <config>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/grid_item.xml">
         <config>
-          <theme>@style/Theme.Recipicreview</theme>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/join_the_membership_activity.xml">
+        <config>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/login_main.xml">
+        <config>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/my_refrigerator.xml">
         <config>
-          <theme>@style/Theme.Recipicreview</theme>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/my_refrigerator_individual_list.xml">
         <config>
-          <theme>@style/Theme.Recipicreview</theme>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/recipe_view.xml">
+        <config>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/recommend.xml">
+        <config>
+          <theme>@style/Theme.Mobile_programming_Recipe_Recommendations</theme>
         </config>
       </layout>
     </layouts>
@@ -73,13 +96,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53ea40c8-8110-44a4-988a-d9b4f6680936" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.7/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-    </list>
+    <list default="true" id="53ea40c8-8110-44a4-988a-d9b4f6680936" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,22 +122,22 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mobile_programming_ Recipe_Recommendations" type="f1a62948:ProjectNode" />
+                <item name="mobile_programming_Recipe_Recommendations" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mobile_programming_ Recipe_Recommendations" type="f1a62948:ProjectNode" />
+                <item name="mobile_programming_Recipe_Recommendations" type="f1a62948:ProjectNode" />
                 <item name="app" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mobile_programming_ Recipe_Recommendations" type="f1a62948:ProjectNode" />
+                <item name="mobile_programming_Recipe_Recommendations" type="f1a62948:ProjectNode" />
                 <item name="app" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="mobile_programming_ Recipe_Recommendations" type="f1a62948:ProjectNode" />
+                <item name="mobile_programming_Recipe_Recommendations" type="f1a62948:ProjectNode" />
                 <item name="app" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
@@ -135,19 +152,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/.." value="LJS" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -166,17 +174,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "android.gradle.sync.needed": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/hyeonu/mobile_programming_team_project/mobile_programming_Recipe_Recommendations"
+    "last_opened_file_path": "/Users/hyeonu/AndroidStudioProjects/mobile_programming_Recipe_Recommendations"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="mobile_programming__Recipe_Recommendations.app.main" />
+      <module name="mobile_programming_Recipe_Recommendations.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />

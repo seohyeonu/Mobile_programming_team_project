@@ -203,7 +203,7 @@ public class LibrariesForLibsInPluginsBlock extends AbstractExternalDependencyFa
         public VersionAccessors(ProviderFactory providers, DefaultVersionCatalog config) { super(providers, config); }
 
         /**
-         * Version alias <b>activity</b> with value <b>1.9.2</b>
+         * Version alias <b>activity</b> with value <b>1.9.3</b>
          * <p>
          * If the version is a rich version and cannot be represented as a
          * single version string, an empty string is returned.
@@ -233,7 +233,7 @@ public class LibrariesForLibsInPluginsBlock extends AbstractExternalDependencyFa
         public Provider<String> getAppcompat() { return getVersion("appcompat"); }
 
         /**
-         * Version alias <b>constraintlayout</b> with value <b>2.1.4</b>
+         * Version alias <b>constraintlayout</b> with value <b>2.2.0</b>
          * <p>
          * If the version is a rich version and cannot be represented as a
          * single version string, an empty string is returned.

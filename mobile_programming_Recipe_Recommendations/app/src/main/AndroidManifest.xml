@@ -7,13 +7,13 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="temp"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Recipicreview"
+        android:theme="@style/Theme.Mobile_programming_Recipe_Recommendations"
         tools:targetApi="31">
         <activity
-            android:name=".MyRefrigerator"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,20 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-        
-        <activity android:name=".AddIngredients"/>
-=======
 
-        <activity
-            android:name=".recipeActivity">
-        </activity>
+        <activity android:name=".RecipeView"/>
+        <activity android:name=".RecommendActivity"/>
 
-        <activity
-            android:name=".RecommendActivity" >
-
-        </activity>
->>>>>>> PSW
+        <activity android:name=".recipeActivity"/>
     </application>
 
 </manifest>
